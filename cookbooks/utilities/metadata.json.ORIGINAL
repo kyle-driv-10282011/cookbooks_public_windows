@@ -9,7 +9,7 @@
     "replacing": {
     },
     "attributes": {
-	"dns/address_type": {
+      "dns/address_type": {
         "required": "optional",
         "calculated": false,
         "default": "public",
@@ -22,19 +22,7 @@
         ],
         "description": "Valid values are 'public' (default) or 'private'",
         "display_name": "Type of address to register"
-        },
-	  "utilities/MYNAME": {
-	  "required": "required",
-	  "calculated": false,
-	  "choice": [
-	      ],
-	  "type": "string",
-	      "recipes": [
-	  "utilities::cheftutorial"
-	      ],
-	  "display_name": "Please enter your name",
-	  "description": "This is your name"
-	  },
+      },
       "dns/password": {
         "required": "required",
         "calculated": false,
